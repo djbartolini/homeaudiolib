@@ -1,0 +1,43 @@
+# macOS specific files
+**/.DS_Store
+
+# CLion specific files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# Build artifacts
+*.obj
+*.a
+*.o
+*.so
+*.exe
+*.dll
+*.out
+*.dylib
+
+# Binaries
+bin/
+homeaudio
+
+# Log files
+*.log
+
+# System-specific files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+Icon?
+__MACOSX/
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*~
+
+# Backup files
+*.bak
+*.old
+*.orig
